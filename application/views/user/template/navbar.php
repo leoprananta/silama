@@ -6,7 +6,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="#">Estate<span class="color-b">Agency</span></a>
+      <a class="navbar-brand text-brand" href="#">Aplikasi<span class="color-b">Silama</span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
       </button>
@@ -24,9 +24,6 @@
               <a class="dropdown-item" href="<?=base_url('user/permohonan_surat')?>">Layanan Surat</a>
               <a class="dropdown-item" href="#">Layanan Berita</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?=base_url('user/myprofile')?>">Profil</a>

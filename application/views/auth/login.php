@@ -13,7 +13,7 @@
                     <div class="col-lg-6">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Halaman Login</h1>
                             </div>
                             <?=$this->session->flashdata('pesan'); ?>
                             <form class="user" action="<?= base_url('auth')?>" method="post">
@@ -34,21 +34,18 @@
                                             Me</label>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-success btn-user btn-block">Login</button>
+                                <button type="submit" class="btn btn-info btn-user btn-block">Login</button>
                                 <hr>
-                                <a href="" class="btn btn-google btn-user btn-block">
+                                <a href="#" class="btn btn-google btn-user btn-block">
                                     <i class="fab fa-google fa-fw"></i> Login with Google
                                 </a>
-                                <a href="" class="btn btn-facebook btn-user btn-block">
+                                <a href="#" class="btn btn-facebook btn-user btn-block">
                                     <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                                 </a>
                             </form>
                             <hr>
                             <div class="text-center">
-                                <a class="small" href="forgot-password.html">Forgot Password?</a>
-                            </div>
-                            <div class="text-center">
-                                <a class="small" href="<?= base_url('auth/registration'); ?>">Create an Account!</a>
+                                <a class="small" href="<?= base_url('auth/registration'); ?>">Belum punya akun? Daftar sekarang</a>
                             </div>
                         </div>
                     </div>

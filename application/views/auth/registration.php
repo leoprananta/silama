@@ -6,12 +6,12 @@
 				<div class="col-lg">
 					<div class="p-5">
 						<div class="text-center">
-							<h1 class="h4 text-gray-900 mb-4">Buat akun anda !</h1>
+							<h1 class="h4 text-gray-900 mb-4">Halaman Daftar</h1>
 						</div>
 						<?=$this->session->flashdata('pesan');?>
 						<form class="user" method="post" action="<?= base_url('auth/registration'); ?>">
 							<div class="form-group">
-								<input type="text" class="form-control form-control-user" id="nik" name="nik" placeholder="Masukkan NIK anda..." value="<?= set_value('nik');?>">
+								<input type="text" class="form-control form-control-user" id="nik" name="nik" placeholder="Masukkan NIK anda" value="<?= set_value('nik');?>">
 								<?= form_error('nik','<small class="text-danger pl-3">','</small>'); ?>
 							</div>
 							<div class="form-group">
@@ -33,7 +33,7 @@
 										name="password2" placeholder="Repeat Password">
 								</div>
 							</div>
-							<button type="submit" class="btn btn-success btn-user btn-block"> Daftar Akun
+							<button type="submit" class="btn btn-info btn-user btn-block"> Daftar Akun
 							</button>
 						</form>
 						<hr>
